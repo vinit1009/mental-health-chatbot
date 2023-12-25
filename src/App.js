@@ -1,13 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
-
-
 import Header from './components/Header';
+import Footer from './components/Footer';
 import Home from './pages/Home';
-import About from './pages/About';
-import Resources from './pages/Resources';
-import Contact from './pages/Contact';
+
+// other imports...
 
 function App() {
   return (
@@ -15,12 +12,11 @@ function App() {
       <div>
         <Header />
         <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/resources" component={Resources} />
-          <Route path="/contact" component={Contact} />
+          <Route path="/pages" exact component={Home} />
         </Switch>
+        <Footer />
       </div>
+      
     </Router>
   );
 }
