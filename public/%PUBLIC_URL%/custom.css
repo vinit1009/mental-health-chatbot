@@ -1,0 +1,25 @@
+/* custom.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .header {
+    background: #007bff;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  .footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+
+
+  
+  /* Add more custom styles as needed */
+
