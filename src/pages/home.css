@@ -1,0 +1,8 @@
+.home-container {
+    padding: 50px; /* Adjust the padding as needed */
+    margin: auto; /* Centers the container */
+    max-width: 800px; /* Adjust the maximum width as needed for better control over layout */
+    text-align: center; /* Center-aligns the text */
+}
+
+/* Additional styling can be added here if needed */
