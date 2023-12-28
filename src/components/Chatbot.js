@@ -12,7 +12,7 @@ const Chatbot = () => {
 
     // Load Botpress chatbot scripts
     loadScript("https://cdn.botpress.cloud/webchat/v0/inject.js");
-    loadScript("https://mediafiles.botpress.cloud/3b455217-ab09-4d57-b73e-1f75aa146c2c/webchat/config.js", true);
+    loadScript("https://mediafiles.botpress.cloud/f4075590-ef0d-4cca-9efa-b5231f83d54d/webchat/config.js", true);
 
     return () => {
       // Cleanup: remove the scripts if the component unmounts

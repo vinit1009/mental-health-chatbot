@@ -4,7 +4,7 @@
   background: url('assets/home-background.jpg') no-repeat center center fixed; 
   background-size: cover;
   color: white; /* Adjust based on your monochromatic color scheme */
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
